@@ -1,0 +1,13 @@
+name: Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  job1:
+    uses: ./.github/workflows/template.yaml
