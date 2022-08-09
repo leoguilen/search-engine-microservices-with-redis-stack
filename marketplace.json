@@ -1,0 +1,30 @@
+{
+  "app_name": "Redis Articles Discovery",
+  "description": "Search engine system for articles using redis technology stack.",
+  "type": "Full App",
+  "contributed_by": "Redis Labs",
+  "repo_url": "https://github.com/leoguilen/search-engine-microservices-with-redis-stack",
+  "preview_image_url": "",
+  "download_url": "https://github.com/leoguilen/search-engine-microservices-with-redis-stack/archive/main.zip",
+  "hosted_url": "",
+  "quick_deploy": "false",
+  "deploy_buttons": [],
+  "language": ["Go", "Dotnet", "Python", "JavaScript"],
+  "redis_commands": [
+    "FT.SUGADD",
+    "JSON.SET",
+    "XADD",
+    "FT.SPELLCHECK",
+    "FT.SUGGET",
+    "FT.SEARCH"
+  ],
+  "redis_features": ["indexing", "search", "ranking", "caching", "data-structures"],
+  "redis_modules": ["RediJSON", "RediSearch", "RedisGears"],
+  "app_image_urls": [
+    "https://github.com/redis-developer/basic-analytics-dashboard-redis-bitmaps-nodejs/blob/main/preview.png?raw=true"
+  ],
+  "youtube_url": "",
+  "special_tags": ["Hackathon"],
+  "verticals": ["Others"],
+  "markdown": "https://raw.githubusercontent.com/leoguilen/search-engine-microservices-with-redis-stack/main/README.md"
+}

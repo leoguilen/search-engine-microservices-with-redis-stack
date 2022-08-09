@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "QueryApi": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7070",
+      "hotReloadEnabled": true,
+      "environmentVariables": {
+        "RedisConnectionString": "redis://localhost:6379"
+      }
+    }
+  }
+}

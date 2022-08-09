@@ -1,0 +1,9 @@
+config set stop-writes-on-bgsave-error no
+
+FT.CREATE articles-idx ON JSON PREFIX 1 article: SCHEMA $.value.title TEXT $.value.summary TEXT $.value.content TEXT $.value.author TEXT
+
+FT.SEARCH articles-idx "hello world" LIMIT 0 10
+
+FT.SPELLCHECK articles-idx <text here> DISTANCE <number here>
+
+FT.SUGGET articles:autocomplete <text here> FUZZY MAX 3 WITHSCORES
